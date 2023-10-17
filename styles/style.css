@@ -1,0 +1,101 @@
+/* Universal Design */
+* {
+    margin: 0;
+    font-family: "Heebo", sans-serif;
+  
+    font-weight: 500;
+  }
+body{
+    width: 1152px;
+    height: 2041px;
+    margin: auto;
+
+}
+
+  /* header start */
+header{
+    height: 595px;
+    background: #FFF;
+}
+  /* nav */
+
+nav ul{
+    list-style-type:none;
+}
+nav{
+    /* margin-right: 120px; */
+    margin-top: 27px;
+    padding-right: 33px;
+}
+.nav-link {
+    /* display: flex;
+    gap: 20px; */
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    grid-gap: 0px;
+    justify-content: right;
+   
+}
+.nav-link li{
+    width: 71px;
+    height: 43px;
+}
+.nav-link li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+/* header banner */
+.banner{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 115px;
+    /* margin-left: 149px;
+    margin-right: 149px; */
+    padding-top: 158px;
+    /* justify-content: center; */
+
+}
+.bannerHead{
+    width: 506px;
+    height: 105px;
+}
+.bannerHead h1{
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.bannerText{
+    padding-top: 40px;
+    padding-bottom: 38px;
+}
+.bannerText p{
+    color: var(--Dark-Color, #21243D);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* button  */
+
+.buttonCv button {
+    border: none;
+    border-radius: 5px;
+    background: var(--Primary, #ff6464);
+    color: white;
+    padding: 13px 20px;
+    font-size: 20px;
+  }
+
+/* banner img */
+
+.bannerImg{
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;     /* Centers content vertically */
+  
+}
+  /* header end */
