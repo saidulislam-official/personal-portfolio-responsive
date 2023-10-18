@@ -117,19 +117,21 @@ nav{
   }
 
   .bannerHead{
-    width: 100%;
+    width: 312px;
     height: 100%;
-   text-align: center;
+    text-align: center;
 
   }
   .bannerText{
     margin-top: 21px;
     margin-bottom: 27px;
-    width: 100%;
+    width: 328px;
     text-align: center;
+    justify-content: center;
   }
   .buttonCv{
     text-align: center;
+    justify-content: center;
   }
 
 }
